@@ -134,3 +134,34 @@ footer nav ul li a{
     padding: 1rem;
     border-radius: 50%;
 }
+
+@media only screen and (min-width: 600px){
+
+    header nav span{
+        float: left;
+    }
+
+    header nav ul{
+        float: right;
+    }
+
+    header nav ul li{
+        display: inline-block;
+    }
+
+    header nav{
+        overflow: hidden;
+    }
+
+    main section{
+        overflow: hidden;
+        max-width: 1245px;
+        width: 100%;
+    }
+
+    main article{
+        float: left;
+        margin: 10px;
+    }
+
+}
